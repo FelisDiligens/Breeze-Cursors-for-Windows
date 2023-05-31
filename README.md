@@ -29,5 +29,5 @@
 - https://invent.kde.org/plasma/breeze
   - https://github.com/KDE/breeze/tree/master/cursors/Breeze
   - https://github.com/KDE/breeze/tree/master/cursors/Breeze_Snow
-- https://pypi.org/project/win2xcur/
+- https://github.com/quantum5/win2xcur#readme
 - https://github.com/black7375/Breeze-Cursors-for-Windows
