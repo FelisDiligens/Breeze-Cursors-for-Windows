@@ -8,10 +8,13 @@
 
 ### Installation
 
-- Clone the GitHub repo or download it as `*.zip`.
-- Right-click `Breeze\Breeze.inf` or `Breeze_Snow\Breeze_Snow.inf` and select Install.
-- Open `Control Panel` → `Hardware and Sound` → `Mouse` → `Pointer` tab.
-- Select Breeze or Breeze Snow and click Apply.
+1. Clone the GitHub repo or download it as `*.zip`.  
+    ![](Assets/Download%20ZIP.png)
+2. Right-click `Breeze\Breeze.inf` or `Breeze_Snow\Breeze_Snow.inf` and select Install.  
+    ![](Assets/Install%20inf.png)
+3. Open `Control Panel` → `Hardware and Sound` → `Mouse` → `Pointer` tab.
+    - Alternatively, press `Win`+`R`, enter `main.cpl`, and press `Enter`.
+4. Select Breeze or Breeze Snow and click Apply.
 
 ### How it was made
 
