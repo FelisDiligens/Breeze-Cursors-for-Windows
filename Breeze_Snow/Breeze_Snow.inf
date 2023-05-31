@@ -1,0 +1,52 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur,
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"center_ptr.cur"
+"pencil.cur"
+"help.cur"
+"pointer.cur"
+"all-scroll.cur"
+"default.cur"
+"crosshair.cur"
+"size_fdiag.cur"
+"size_bdiag.cur"
+"size_hor.cur"
+"size_ver.cur"
+"text.cur"
+"not-allowed.cur"
+"progress.ani"
+"wait.ani"
+
+[Strings]
+CUR_DIR         = "Cursors\Breeze_Snow"
+SCHEME_NAME     = "Breeze Snow"
+pointer         = "default.cur"
+help            = "help.cur"
+work            = "progress.ani"
+busy            = "wait.ani"
+cross           = "crosshair.cur"
+text            = "text.cur"
+hand            = "pencil.cur"
+unavailable     = "not-allowed.cur"
+vert            = "size_ver.cur"
+horz            = "size_hor.cur"
+dgn1            = "size_fdiag.cur"
+dgn2            = "size_bdiag.cur"
+move            = "all-scroll.cur"
+alternate       = "center_ptr.cur"
+link            = "pointer.cur"
+
